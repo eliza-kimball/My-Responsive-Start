@@ -330,8 +330,7 @@ body {
 }
 
 #headerWrapper {
-  background-color: #feffec;
-  color: #51658C;
+  color: #e3575f;
 }
 
 header {
@@ -339,11 +338,13 @@ header {
   align-items: flex-end;
   padding: 1rem 16px;
   gap: 8px;
+  background-color: #011640;
 }
 header h1 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: 500;
+  color: white;
 }
 
 #logo {
@@ -351,7 +352,7 @@ header h1 {
 }
 
 #navWrapper {
-  background-color: #FFC1CB;
+  background-color: #D1ECF4;
 }
 
 nav ul {
@@ -364,28 +365,32 @@ nav ul li {
   flex: 1;
 }
 nav li.active {
-  background-color: #A7CFF2;
+  background-color: #e3575f;
+}
+nav li.active a {
+  color: white;
 }
 nav a {
   display: block;
   padding: 0.75rem;
-  color: white;
+  color: #011640;
   text-align: center;
   text-decoration: none;
 }
 nav a:hover {
-  color: #51658C;
+  color: #6aa4f0;
 }
 
 #footerWrapper {
   padding: 0.5rem 16px;
-  background-color: #feffec;
+  background-color: #e3575f;
 }
 #footerWrapper p {
   margin: 0;
   font-weight: 300;
   text-align: center;
-  color: #51658C;
+  color: white;
+  padding: 0.5rem;
 }
 
 @media only screen and (min-width: 35rem) {
