@@ -326,12 +326,12 @@ body {
   height: 100%;
   font-family: "Noto Serif", serif;
   font-weight: 500;
-  color: #333;
+  color: #000;
 }
 
 #headerWrapper {
-  background-color: #abc;
-  color: #001adb;
+  background-color: #feffec;
+  color: #51658C;
 }
 
 header {
@@ -347,11 +347,11 @@ header h1 {
 }
 
 #logo {
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 
 #navWrapper {
-  background-color: pink;
+  background-color: #FFC1CB;
 }
 
 nav ul {
@@ -364,7 +364,7 @@ nav ul li {
   flex: 1;
 }
 nav li.active {
-  background-color: blue;
+  background-color: #A7CFF2;
 }
 nav a {
   display: block;
@@ -374,17 +374,18 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  color: orange;
+  color: #51658C;
 }
 
 #footerWrapper {
   padding: 0.5rem 16px;
-  background-color: plum;
+  background-color: #feffec;
 }
 #footerWrapper p {
   margin: 0;
   font-weight: 300;
   text-align: center;
+  color: #51658C;
 }
 
 @media only screen and (min-width: 35rem) {

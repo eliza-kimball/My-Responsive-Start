@@ -17,7 +17,7 @@ html {
   }
 
   #headerWrapper {
-    background-color: #abc;
+    background-color: #feffec;
     color: $secondaryColor;
   }
 
@@ -33,11 +33,11 @@ html {
     }
   }
   #logo {
-    padding-bottom: 5px;
+    padding-bottom: 3px;
   }
 
   #navWrapper {
-    background-color: pink;
+    background-color: $primaryColor;
   }
 
   nav {
@@ -48,23 +48,24 @@ html {
       display: flex;
       li {flex:1;}
     }
-    li.active {background-color: blue;}
+    li.active {background-color: #A7CFF2;}
     a {
       display: block;
       padding: 0.75rem;
       color: white;
       text-align: center;
       text-decoration: none;
-      &:hover {color: orange}
+      &:hover {color: #51658C}
     }
   }
 
   #footerWrapper {
     padding: 0.5rem $gutter;
-    background-color: plum;
+    background-color: #feffec;
     p {
       margin: 0;
       font-weight: $lightWeight;
       text-align: center;
+      color: $secondaryColor;
     }
   }
