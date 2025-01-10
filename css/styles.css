@@ -330,7 +330,7 @@ body {
 }
 
 #headerWrapper {
-  color: #e3575f;
+  color: #e15058;
 }
 
 header {
@@ -365,7 +365,7 @@ nav ul li {
   flex: 1;
 }
 nav li.active {
-  background-color: #e3575f;
+  background-color: #e15058;
 }
 nav li.active a {
   color: white;
@@ -383,7 +383,7 @@ nav a:hover {
 
 #footerWrapper {
   padding: 0.5rem 16px;
-  background-color: #e3575f;
+  background-color: #e15058;
 }
 #footerWrapper p {
   margin: 0;
